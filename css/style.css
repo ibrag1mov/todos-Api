@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background-attachment: fixed;
+    backdrop-filter: grayscale(0.8)  brightness(.8);
+    /* filter: grayscale()0 */
+    /* filter: brightness(0.5); */
+}
+
+.light{
+    background: url("https://picsum.photos/id/74/800/500/") no-repeat;
+    background-size: cover;
+    backdrop-filter: grayscale(0.8)  brightness(.8);
+}
+.dark{
+    background: url("https://picsum.photos/id/74/800/500/") no-repeat;
+    background-size: cover;
+    backdrop-filter: grayscale(0.8)  brightness(0.1);
+}
+
+
+.dark .header,
+.dark .wrapper{
+    background: rgba(129, 129, 129, 0.164);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px ;
+}
+.light .header,
+.light .wrapper{
+    background: rgba(0, 0, 0, 0.355);
+    backdrop-filter: blur(5px);
+}
+
+.h2{
+    margin-bottom: 20px;
+}
+
+.text,
+.text:hover{
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn{
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    opacity: .8;
+    background-color: rgba(0, 0, 0, 0.152);
+}
+
+.a-link{
+    text-decoration: none;
+}
+
+.label{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    font-size: 24px;
+}
+
+.form-control{
+    padding-left: 35px;
+    padding-right: 6px;
+}
+
+.password-wrapper{
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    right: 10px;
+    top: 2.5px;
+    font-size: 22px;
+    cursor: pointer;
+}

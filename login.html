@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+     <!-- bootstrap icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+   <header class="header">
+    <div class="container">
+        <nav class="d-flex justify-content-between py-4">
+            <h1 class="h1 logo text">
+                <a class="text a-link" href="index.html">Todo</a>
+            </h1>
+           <div class="btns d-flex column-gap-3">
+                <button class="btn btn-transparent border px-4 text-white js-dark-mode">
+                   <i class="bi bi-moon"></i> dark
+                </button>
+           </div>
+        </nav>
+    </div>
+   </header>
+
+   <main class="py-5">
+
+        <div class="container mt-5">
+
+            <div class="wrapper offset-3 w-50 rounded p-4">
+                
+                <h2 class="h2 text-center text">LOGIN</h2>
+                    <form class="form">
+                        <label class="label d-block w-75 mx-auto mb-3" for="email">
+                            <input class="form-control js-email" type="email" id="email" placeholder="Email">
+                            <i class="bi icon bi-person"></i>
+                        </label>
+                        <label class="label d-block w-75 mx-auto mb-3" for="password">
+                            <input class="form-control js-password" type="password" id="password" placeholder="Password">
+                            <i class="bi icon  bi-key"></i>
+                        </label>
+                        <div class="btns text-center py-3">
+                            <button type="button" class="btn btn-transparent border text fs-5 js-register me-3">Register</button>
+                            <button type="submit" class="btn btn-success border text fs-5 js-Login">Submit</button>
+                        </div>
+                    </form>
+                    
+
+
+            </div>
+
+        </div>
+
+   </main>
+    
+
+   <script src="js/dark-mode.js"></script>
+   <script src="js/login.js"></script>
+</body>
+</html>

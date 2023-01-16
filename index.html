@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+     <!-- bootstrap icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+   <header class="header">
+    <div class="container">
+        <nav class="d-flex justify-content-between py-4">
+            <h1 class="h1 logo text">
+                <a class="text a-link" href="index.html">Todo</a>
+            </h1>
+           <div class="btns d-flex column-gap-3">
+                <button class="btn btn-transparent border px-4 text js-dark-mode">
+                   <i class="bi bi-moon"></i> dark
+                </button>
+                <button class="btn btn-warning d-none">
+                    Log Out
+                </button>
+           </div>
+        </nav>
+    </div>
+   </header>
+
+   <main class="py-5">
+
+        <div class="container mt-5">
+
+            <div class="wrapper offset-3  w-50 rounded p-5  ">
+                <h2 class="h2 text text-center">user login form</h2>
+                <div class="btns-form column-gap-3 d-flex justify-content-between ">
+                    <button class="btn btn-transparent border text p-5 mb-4 mt-3 w-50 fs-3 js-login">Login</button>
+                    <button class="btn btn-transparent border text p-5 mb-4 mt-3 w-50 fs-3 js-register">Register</button>
+                </div>
+            </div>
+
+        </div>
+
+   </main>
+    
+
+   <script src="js/dark-mode.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
