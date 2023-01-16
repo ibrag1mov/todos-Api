@@ -27,12 +27,12 @@ body{
 
 .dark .header,
 .dark .wrapper{
-    background: rgba(129, 129, 129, 0.164);
+    background: rgb(35, 44, 51);
     backdrop-filter: blur(5px);
 }
 .light .header,
 .light .wrapper{
-    background: rgba(0, 0, 0, 0.355);
+    background: rgb(56, 86, 94);
     backdrop-filter: blur(5px);
 }
 
