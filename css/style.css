@@ -8,7 +8,6 @@
 body{
     height: 100vh;
     background-attachment: fixed;
-    backdrop-filter: grayscale(0.8)  brightness(.8);
     /* filter: grayscale()0 */
     /* filter: brightness(0.5); */
 }
@@ -32,7 +31,7 @@ body{
 }
 .light .header,
 .light .wrapper{
-    background: rgb(56, 86, 94);
+    background: rgb(47, 63, 67);
     backdrop-filter: blur(5px);
 }
 
@@ -83,4 +82,9 @@ body{
     top: 2.5px;
     font-size: 22px;
     cursor: pointer;
+}
+
+.input-error{
+    box-shadow: 0 0 2px 3px rgb(183, 9, 9);
+    content: "error";
 }
